@@ -1,0 +1,75 @@
+html {
+  margin: 0px;
+}
+body {
+  background-color: black;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+}
+
+.home-title {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  padding-top: 50px;
+}
+.home-body {
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  padding-top: 10%;
+  padding-left: 10%;
+}
+.section1{
+  background-image: url("../images/brad-knight-huWlb1NP67w-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  position: relative;
+  padding: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.float-container {
+  display: grid;
+  /* border: 3px solid #fff; */
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding-bottom: 20px;
+}
+
+.float-child {
+  margin-left: 2px;
+  /* border: 2px solid red; */
+}  
+.section2{
+
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  position: relative;
+  padding: 50px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.section3{
+  background-image: url("../images/kateryna-hliznitsova-OVe2JXUS0qY-unsplash.jpg");
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  position: relative;
+  padding: 40px;
+  margin-top: 50px;
+  
+}
+.button-sec3{
+  display: inline-block;
+
+}

@@ -1,0 +1,53 @@
+nav {
+  background-image: url("../images/jannis-lucas-S2S2SdI6GMM-unsplash.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+  
+  padding-top: 20px;
+}
+.me-auto{
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.8);  
+  color: white;
+  font-weight: bold;
+}
+.home-navleft {
+  font-weight: bold;
+  display: flex;
+  padding: 0;
+  font-size: larger;
+}
+.right-end {
+  display: inline-flex;
+  /* background-color: #e2163b; */
+  border-radius: 30px;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  
+}
+.right {
+  margin-left: auto;
+  margin-right: 10px;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  
+}
+li {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* button {
+  border-radius: 30px;
+  height: 30px;
+  color: white;
+  background-color: black;
+} */
